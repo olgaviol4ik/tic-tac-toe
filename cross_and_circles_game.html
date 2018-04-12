@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Olga's Udacity project</title>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+            <link rel="stylesheet" href="styles.css">
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+        </head>
+        <body>
+            <h1>Olga's Udacity project</h1>
+            <h2>Choose grid size (min=3, max=5)</h2>
+            <form id="sizePicker">
+            <input type="number" id="height" name="height" min="3" max="5"  value="3">
+            <input type="number" id="width" name="width" min="3" max="5" value="3">
+            <input  type="submit" id="submitButton" class="button">
+            </form>
+            <h2>Current symbol</h2>
+            <div type="symbol1" id="symbol1" class="symbol active">X</div> 
+            <div type="symbol2" id="symbol2" class="symbol">0</div>
+            <table id=pixelCanvas></table>
+            <script src="mydesign.js"></script>
+        </body>
+</html>
